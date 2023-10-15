@@ -1,0 +1,1000 @@
+﻿Spreadsheet tab;Variable Name;data type;Description;Measurement Unit;Allowed values;Relationships;Character length;Required;Accepts Null Value?
+Downloadtabel_EN;vondstnummer;Text;Find number.  14 digits in total, consisting of four digit project code (location) frollowed by a '.'.  Then a 5 digit number, followed by the three digit category code, followed by a 3 digit number.  In some cases there is a '-'- followed by a two digit number. ;N/A;ASCII;N/A;19;yes;no
+Downloadtabel_EN;project_code;Text;Project code (Location).  NZC1 (Ferdinand Bolstraat), NZD1 (Damrak), NZDAM1 (Bijenkorf), NZN1 (Nieuwe Leeuwarderweg), NZR1 (Rokin), NZR2 (Rokin), NZS1 (Stationsplein), NZV1 (Vijzelgrach);N/A;ASCII;vondstnummer;4;yes;no
+Downloadtabel_EN;categorie;Text;Material category (25 different catagories: ---, BWM (Buildings and Structures), CER (Ceramic), CPY (Consumption), FAU (Faunal remains), GLS (Glass), HK (unknown), HT (combined metal and wood), KHL, KSC, KST, LEE, MA, MHT, MIX, MSC, MTL, PLT, SC, SLK, STN, TW, TXT, VST, XXX;N/A;ASCII;vondstnummer;3;yes;no
+Downloadtabel_EN;subcategorie;Text;Material;N/A;ASCII;N/A;28;no;yes
+Downloadtabel_EN;gewicht;Double;Weight in grams;g;ASCII;N/A;10;no;yes
+Downloadtabel_EN;object;Text;Object name;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;objectdeel;Text;Object part;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;fragmenten;Long;Number of fragments;N/A;ASCII;N/A;3;no;yes
+Downloadtabel_EN;past_aan_hoort_bij;Memo;Fits or belongs to find number(s);N/A;ASCII;vondstnummer;65536;no;yes
+Downloadtabel_EN;begin_dat;Long;Start date;YYYY (AD);ASCII;N/A;4;no;yes
+Downloadtabel_EN;eind_dat;Long;End date;YYYY (AD);ASCII;N/A;4;no;yes
+Downloadtabel_EN;put;Text;Trench number;N/A;ASCII;N/A;;no;yes
+Downloadtabel_EN;vlak;Text;Level number;N/A;ASCII;N/A;5;no;yes
+Downloadtabel_EN;spoor;Text;Feature number;N/A;ASCII;N/A;3;no;yes
+Downloadtabel_EN;vak;Text;Section number;DD/MM/YYYY;ASCII;N/A;5;no;yes
+Downloadtabel_EN;vlak_min;Double;Minimum level height;NAP;ASCII;N/A;10;no;yes
+Downloadtabel_EN;vlak_max;Double;Maximum level height;NAP;ASCII;N/A;10;no;yes
+Downloadtabel_EN;trefwoorden;Memo;Keywords (photographed finds only);N/A;ASCII;below the surface project codes;;no;yes
+Downloadtabel_EN;niveau1;Memo;Level 1 of the functional classification;N/A;ASCII;N/A;;no;yes
+Downloadtabel_EN;niveau2;Memo;Level 2 of the functional classification;N/A;ASCII;N/A;;no;yes
+Downloadtabel_EN;niveau3;Memo;Level 3 of the functional classification;N/A;ASCII;N/A;;no;yes
+Downloadtabel_EN;niveau4;Memo;Level 4 of the functional classification;N/A;ASCII;N/A;;no;yes
+Downloadtabel_EN;website;Boolean;On website (1=Yes, 0=No);N/A;ASCII;N/A;1;no;yes
+Downloadtabel_EN;aardewerk_ds_type;Text;Ceramics: Deventer system code;N/A;ASCII;N/A;5;no;yes
+Downloadtabel_EN;aardewerk_eve_rand;Double;Ceramics: rim-EVE (Estimated vessel equivalent);N/A;ASCII;N/A;10;no;yes
+Downloadtabel_EN;aardewerk_eve_bodem;Double;Ceramics: base-EVE (Estimated vessel equivalent);N/A;ASCII;N/A;10;no;yes
+Downloadtabel_EN;aardewerk_herkomst;Text;Ceramics: Location of production;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;aardewerk_object_diameter_mm;Double;Ceramics: (reconstructed) object diameter in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;aardewerk_object_hoogte_mm;Double;Ceramics: (reconstructed) object diameter in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;aardewerk_fragm_lengte_mm;Double;Ceramics: Fragment length in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;aardewerk_fragm_breedte_mm;Double;Ceramics: Fragment width in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;aardewerk_fragm_hoogte_mm;Double;Ceramics: Fragment height in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;aardewerk_opp_behandeling;Text;Ceramics: Surface treatment;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;aardewerk_decoratietechniek;Text;Ceramics: Decoration technique;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;aardewerk_decorgroepen;Text;Ceramics: Image type;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;aardewerk_merk;Text;Ceramics: Mark;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;blankewapens_totale_lengte_mm;Long;Hilted weapons: Total length in mm;mm;ASCII;N/A;5;no;yes
+Downloadtabel_EN;blankewapens_type_lemmet;Text;Hilted weapons: Blade type;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;blankewapens_type_klingvanger;Text;Hilted weapons: Blade catcher type;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;blankewapens_type_heft;Text;Hilted weapons: Grip type;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;blankewapens_materiaal_heft;Text;Hilted weapons: Grip material;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;blankewapens_type_heftbekroning;Text;Hilted weapons: Pommel cap type;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;blankewapens_productiemerk;Text;Hilted weapons: Production mark;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;bouwmaterialen_kleur;Text;Building material: Colour;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;bouwmaterialen_grootstelengte_mm;Double;Building material: Greatest length in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;bouwmaterialen_grootstebreedte_mm;Double;Building material: Greatest width in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;bouwmaterialen_grootstedikte_mm;Double;Building material: Greatest thickness in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;bouwmaterialen_productiecentrum;Text;Building material: Production centre;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;bouwmaterialen_afbeelding;Text;Building material: Image type;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;bouwmaterialen_oppervlakte;Text;Building material: Surface treatment;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;fauna_soort;Text;Fauna: Species;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;fauna_element;Text;Fauna: Element;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;fauna_lengte_mm;Double;Fauna: Length in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;fauna_breedte_mm;Double;Fauna: Width in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;fauna_hoogte_mm;Double;Fauna: Height in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;glas_ds_type;Text;Glass: Deventer system code;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;glas_kleur;Text;Glass: Colour;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;glas_herkomst;Text;Glass: Location of production;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;glas_eve_rand;Double;Glass: rim-EVE (Estimated vessel equivalent);N/A;ASCII;N/A;10;no;yes
+Downloadtabel_EN;glas_eve_bodem;Long;Glass: base-EVE (Estimated vessel equivalent);N/A;ASCII;N/A;5;no;yes
+Downloadtabel_EN;glas_object_diameter_mm;Double;Glass: (reconstructed) object diameter in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;glas_object_hoogte_mm;Double;Glass: (reconstructed) object height in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;glas_fragm_lengte_mm;Double;Glass: Fragment length in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;glas_fragm_breedte_mm;Double;Glass: Fragment width in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;glas_fragm_hoogte_mm;Double;Glass: Fragment height in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;glas_fragm_dikte_mm;Double;Glass: Fragment thickness in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;glas_decoratie;Text;Glass: Decoration;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;glas_merk;Text;Glass: Mark;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;hout_deelmaterialen;Text;Wood: Secondary material;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;hout_grootstelengte_mm;Double;Wood: Greatest length in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;hout_grootstebreedte_mm;Double;Wood: Greatest width in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;hout_grootstehoogte_mm;Double;Wood: Greatest height in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;hout_grootstedikte_mm;Double;Wood: Greatest thickness in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;hout_diameter_mm;Double;Wood: Diameter in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;hout_productiewijze;Text;Wood: Production method;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;kunststof_deelmaterialen;Text;Synthetics: Secondary material;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;kunststof_grootstelengte_mm;Double;Synthetics: Greatest length in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;kunststof_grootstebreedte_mm;Double;Synthetics: Greatest width in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;kunststof_grootstehoogte_mm;Double;Synthetics: Greatest height in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;kunststof_diameter_mm;Double;Synthetics: Diameter in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;kunststof_productiecentrum;Text;Synthetics: Production centre;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;kunststof_eigenaar;Text;Synthetics: Owner;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;kunststof_merk;Text;Synthetics: Mark;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;kunststof_type;Text;Synthetics: Type;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;kunststof_eenheid_waarde;Text;Synthetics: Unit/value;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;leer_archeologischobjecttype;Text;Leather: Type;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;leer_deelmaterialen;Text;Leather: Secondary material;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;leer_versiering;Text;Leather: Decoration technique;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;leer_leersoort;Text;Leather: Leather type;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;leer_grootste_lengte_mm;Double;Leather: Greatest length in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;leer_grootste_breedte_mm;Double;Leather: Greatest width in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;leer_grootste_hoogte_mm;Double;Leather: Greatest height in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;messen_angel_of_plaatangel;Text;Knives: Whittle tang or scale tang;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;messen_heft_mat_1;Text;Knives: Hilt material;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;messen_lemmet_lengte;Double;Knives: Blade length in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;messen_heft_lengte;Double;Knives: Hilt length in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;messen_minimale_totale_lengte;Double;Knives: Greatest length;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;messen_minimale_totale_breedte;Double;Knives: Greatest width;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;metaal_deelmaterialen;Text;Metal: Secondary material;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;metaal_grootstelengte_mm;Double;Metal: Greatest length in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;metaal_grootstebreedte_mm;Double;Metal: Greatest width in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;metaal_grootstehoogte_mm;Double;Metal: Greatest height in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;metaal_grootstedikte_mm;Double;Metal: Greatest thickness in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;metaal_diameter_mm;Double;Metal: Diameter in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;metaal_productiecentrum;Text;Metal: Production centre;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;mix_grootstelengte_mm;Double;Mixed: Greatest length in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;mix_grootstebreedte_mm;Double;Mixed: Greatest width in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;mix_grootstehoogte_mm;Double;Mixed: Greatest height in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;mix_grootstedikte_mm;Double;Mixed: Greatest thickness in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;mix_diameter_mm;Double;Mixed: Diameter in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;munt_land_geografisch;Text;Coins: Country (geographical);N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;munt_staat_politieke_eenheid;Text;Coins: Political entity;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;munt_autoriteit_politiek;Text;Coins: Authority;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;munt_muntsoort;Text;Coins: Coin type;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;munt_eenheid_waarde;Text;Coins: Denomination/value;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;munt_ontwerper;Text;Coins: Designer;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;munt_onderwerp_gelegenheid;Text;Coins: Subject or occasion;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;munt_muntplaats_productieplaats;Text;Coins: Location of production;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;munt_lengte_diameter_in_mm;Double;Coins: Diameter in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;munt_breedte_in_mm;Double;Coins: Width in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;natuursteen_subsoort;Text;Natural stone: Sub type;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;natuursteen_grootstelengte_mm;Double;Natural stone: Greatest length in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;natuursteen_grootstebreedte_mm;Double;Natural stone: Greatest width in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;natuursteen_grootstehoogte_mm;Double;Natural stone: Greatest height in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;natuursteen_grootstedikte_mm;Double;Natural stone: Greatest thickness in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;natuursteen_diameter_mm;Double;Natural stone: Diameter in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;natuursteen_productiesporen;Text;Natural stone: Production marks;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;plant_soort;Text;Botanical: Species;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;plant_grootstelengte_mm;Double;Botanical: Greatest length in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;plant_grootstebreedte_mm;Double;Botanical: Greatest width in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;plant_grootstehoogte_mm;Double;Botanical: Greatest height in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;plant_grootstedikte_mm;Double;Botanical: Greatest thickness in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;plant_diameter_mm;Double;Botanical: Diameter in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;rookpijpen_model;Text;Pipes: Model;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;rookpijpen_zijmerk_links;Text;Pipes: Mark on side of bowl - left;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;rookpijpen_zijmerk_rechts;Text;Pipes: Mark on side of bowl - right;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;rookpijpen_bijmerk_links;Text;Pipes: Mark on base of heel - left;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;rookpijpen_bijmerk_rechts;Text;Pipes: Mark on base of heel - right;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;rookpijpen_merk_of_hielmerk;Text;Pipes: Mark or mark on base of heel;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;rookpijpen_oppervlaktebehandeling_kop;Text;Pipes: Surface treatment bowl;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;rookpijpen_kopopening;Text;Pipes: Bowl opening;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;rookpijpen_radering;Text;Pipes: Milling;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;rookpijpen_steelbehandeling;Text;Pipes: Stem treatment;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;rookpijpen_kwaliteit;Text;Pipes: Quality;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;rookpijpen_productiecentrum;Text;Pipes: Production centre;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;rookpijpen_pijpenmaker;Text;Pipes: Pipe maker;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;sculpturen_baksel;Text;Sculptures: Fabric;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;sculpturen_hoogte_mm;Long;Sculptures: Height in mm;mm;ASCII;N/A;5;no;yes
+Downloadtabel_EN;sculpturen_breedte_mm;Long;Sculptures: Width in mm;mm;ASCII;N/A;5;no;yes
+Downloadtabel_EN;sculpturen_diepte_mm;Long;Sculptures: Depth in mm;mm;ASCII;N/A;5;no;yes
+Downloadtabel_EN;sculpturen_hol_of_massief;Text;Sculptures: Hollow or solid;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;sculpturen_voorstelling;Text;Sculptures: Image description;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;textiel_deelmaterialen;Text;Textile: Secondary material;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;textiel_grootstelengte_mm;Double;Textile: Greatest length in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;textiel_grootstebreedte_mm;Double;Textile: Greatest width in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;textiel_productiewijze;Text;Textile: Production method;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;textiel_binding;Text;Textile: Binding;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;textiel_bewerking;Text;Textile: Processing;N/A;ASCII;N/A;30;no;yes
+Downloadtabel_EN;touw_grootstelengte_mm;Double;Rope: Greatest length in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;touw_grootstebreedte_mm;Double;Rope: Greatest width in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;touw_diameter_mm;Double;Rope: Diameter in mm;mm;ASCII;N/A;10;no;yes
+Downloadtabel_EN;touw_strengen;Long;Rope: Number of strands;strands;ASCII;N/A;5;no;yes
+Downloadtabel_EN;touw_productiewijze;Text;Rope: Production method;N/A;ASCII;N/A;30;no;yes
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
