@@ -10,7 +10,7 @@ Data for the information organisation project. Includes:
 
 * **Data Models:** processed and modeled origin dataset
 * **Machine Learning:** Jupyter notebooks for machine learning part
-* **Ontology:** ontology of the dataset
+* **Ontology:** ontology of the dataset and Jupyter notebook used to triage the data
 * **Datasets:** Aggregated data used in the web-based visualiations
 
 ### Machine Learning
